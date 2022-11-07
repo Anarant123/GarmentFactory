@@ -1,0 +1,45 @@
+﻿<Window x:Class="GarmentFactory.WorkWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GarmentFactory"
+        mc:Ignorable="d"
+        Title="Швейная фабрика" MinHeight="600" MinWidth="1000"
+        WindowStartupLocation="CenterScreen"
+        Icon="\ResourcesImage\logo-02.jpg">
+    <DockPanel LastChildFill="True"
+               Margin="5">
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button x:Name="btnToOrderList"
+                    Content="Список заказов"
+                    Click="btnToOrderList_Click"
+                    Grid.Column="0"
+                    Style="{DynamicResource ButtonStyle}"
+                    Margin="1"/>
+            <Button x:Name="btnToInventory"
+                    Content="Инвентаризация"
+                    Click="btnToInventory_Click"
+                    Grid.Column="1"
+                    Style="{DynamicResource ButtonStyle}"
+                    Margin="1"/>
+            <Button x:Name="btnExit"
+                    Content="Выйти"
+                    Click="btnExit_Click"
+                    Grid.Column="4"
+                    Style="{DynamicResource ButtonStyle}"
+                    Margin="1"/>
+        </Grid>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </DockPanel>
+</Window>

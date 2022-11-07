@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="406fe05ad32b4d83995b9a34caa22ce8" Name="Diagram1">
+        <EntityTypeShape EntityType="GarmentFactoryModel.Accessories" Width="1.5" PointX="0.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GarmentFactoryModel.Accessories_Product" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GarmentFactoryModel.Color" Width="1.5" PointX="3.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="GarmentFactoryModel.Compound" Width="1.5" PointX="3.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GarmentFactoryModel.Order" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GarmentFactoryModel.Product" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GarmentFactoryModel.Product_Order" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="GarmentFactoryModel.Textile" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GarmentFactoryModel.Textile_Stock" Width="1.5" PointX="8.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GarmentFactoryModel.TypeAccessories" Width="1.5" PointX="3" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GarmentFactoryModel.TypePicture" Width="1.5" PointX="3.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GarmentFactoryModel.Users" Width="1.5" PointX="1.5" PointY="9" IsExpanded="true" />
+        <AssociationConnector Association="GarmentFactoryModel.FK__Accessori__id_Ac__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="GarmentFactoryModel.FK__Accessori__id_Pr__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="GarmentFactoryModel.FK__Order__Customer__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="GarmentFactoryModel.FK__Order__Manager__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="GarmentFactoryModel.FK__Product_O__id_Or__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="GarmentFactoryModel.FK__Product_O__id_Pr__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="GarmentFactoryModel.FK__Textile__Type_Pi__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="GarmentFactoryModel.FK__Textile_S__id_Te__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="GarmentFactoryModel.Accessories_TypeAccessories" ManuallyRouted="false" />
+        <AssociationConnector Association="GarmentFactoryModel.Textile_Color" ManuallyRouted="false" />
+        <AssociationConnector Association="GarmentFactoryModel.Textile_Compound" ManuallyRouted="false" />
+        <AssociationConnector Association="GarmentFactoryModel.Textile_Product" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
